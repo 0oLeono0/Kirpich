@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кирпич - рекламная студия</title>
+    <link rel="stylesheet" href="./scss/style.css">
+</head>
+
+<body class="body">
+
+    <a href="#hero" class="up"><img src="./img/up.svg" class="up_img" alt=""></a>
+
+    <div class="request_overflow">
+        <div class="request">
+            <div class="request_block active">
+                <button class="request_close active">
+                    <span class="request_close_line"></span>
+                    <span class="request_close_line"></span>
+                </button>
+                <div class="request_form">
+                    <h2 class="request_header">оставить заявку</h2>
+                    <input type="text" class="request_input" placeholder="ФИО:">
+                    <input type="tel" class="request_input" placeholder="Телефон:">
+                    <input type="email" class="request_input" placeholder="Email:">
+                </div>
+                <div class="request_checkbox_block">
+                    <span class="request_checkbox"><span class="request_checkbox_yes"></span></span>
+                    <p class="request_checkbox_text">Я согласен с политикой обработки персональных данных.</p>
+                    <button class="request_btn">Отправить</button>
+                </div>
+            </div>
+            <div class="request_overflow2">
+                <div class="submit">
+                    <span class="submit_ico"><img src="./img/submit.svg" alt=""></span>
+                    <h3 class="submit_header">ваша заявка успешно отправлена Спасибо!</h3>
+                    <p class="submit_text">мы свяжемся с вами в ближайшее время!</p>
+                    <button class="submit_exit">на главную</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="comand_overflow">
+        <div class="comand">
+            <button class="comand_close">
+                <span class="comand_close_line"></span>
+                <span class="comand_close_line"></span>
+            </button>
+            <div class="comand_block">
+                <div class="comand_head">
+                    <p class="comand_name">Иванов <br>Иван Иванович </p>
+                    <img src="./img/star.svg" alt="" class="comand_star">
+                    <p class="comand_top">ТОП - 10</p>
+                </div>
+                <div class="comand_main">
+                    <p class="comand_main_head">Основатель студии</p>
+                    <img src="./img/PNG/human1.png" alt="" class="comand_main_img">
+                </div>
+                <div class="comand_footer">
+                    <div class="comand_footer_text_text">
+                        <p class="comand_footer_text"><span class="comand_footer_text_name">тел.:</span> +7 (900)
+                            856-56-56</p>
+                        <p class="comand_footer_text"><span class="comand_footer_text_name">e-mail:</span> ivan@mail.ru
+                        </p>
+                    </div>
+                    <div class="comand_footer_rating">
+                        <button class="comand_footer_btn">Позвонить</button>
+                        <p class="comand_footer_rate">оценка</p>
+                        <span class="comand_footer_stars">
+                            <img src="./img/star.svg" alt="" class="comand_footer_star">
+                            <img src="./img/star.svg" alt="" class="comand_footer_star">
+                            <img src="./img/star.svg" alt="" class="comand_footer_star">
+                            <img src="./img/star.svg" alt="" class="comand_footer_star">
+                            <img src="./img/star.svg" alt="" class="comand_footer_star">
+                        </span>
+                        <p class="comand_footer_num">5.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="comand_block">
+                <div class="comand_head">
+                    <p class="comand_name">Иванова <br>Юлия Ивановна </p>
+                    <img src="./img/star.svg" alt="" class="comand_star">
+                    <p class="comand_top">ТОП - 10</p>
+                </div>
+                <div class="comand_main">
+                    <p class="comand_main_head">Ведущий дизайнер</p>
+                    <img src="./img/PNG/human2.png" alt="" class="comand_main_img">
+                </div>
+                <div class="comand_footer">
+                    <div class="comand_footer_text_text">
+                        <p class="comand_footer_text"><span class="comand_footer_text_name">тел.:</span> +7 (900)
+                            856-56-56</p>
+                        <p class="comand_footer_text"><span class="comand_footer_text_name">e-mail:</span> ivan@mail.ru
+                        </p>
+                    </div>
+                    <div class="comand_footer_rating">
+                        <button class="comand_footer_btn">Позвонить</button>
+                        <p class="footer_rate">оценка</p>
+                        <span class="footer_stars">
+                            <img src="./img/star.svg" alt="" class="footer_star">
+                            <img src="./img/star.svg" alt="" class="footer_star">
+                            <img src="./img/star.svg" alt="" class="footer_star">
+                            <img src="./img/star.svg" alt="" class="footer_star">
+                            <img src="./img/star.svg" alt="" class="footer_star">
+                        </span>
+                        <p class="footer_num">5.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="container header_container">
+            <nav class="header_nav">
+                <ul class="header_nav_list">
+                    <li class="header_nav_item"><img src="./img/PNG/logo.png" alt="" class="header_nav_img"></li>
+                    <li class="header_nav_item"><a href="#about" class="header_nav_link">О нас</a></li>
+                    <li class="header_nav_item"><a href="#portfolio" class="header_nav_link">Портфолио</a></li>
+                    <li class="header_nav_item"><a href="#services" class="header_nav_link">Направление услуг</a></li>
+                    <li class="header_nav_item"><a href="#benefits" class="header_nav_link">Премущества и
+                            возможности</a></li>
+                    <li class="header_nav_item">+7 (4152) 47-57-67</li>
+                    <li class="header_nav_item"><button class="header_nav_btn">Заказать рекламу</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="block"></div>
+
+    <section class="hero" id="hero">
+        <div class="container hero_container">
+            <h1 class="hero_header">
+                <span class="hero_header_span hero_header1">НАРУЖНАЯ РЕКЛАМА</span>
+                <span class="hero_header_span hero_header2">ШИРОКОФОРМАТНАЯ ПЕЧАТЬ</span>
+                <span class="hero_header_span hero_header3">ПОЛИГРАФИЯ</span>
+            </h1>
+            <a href="#services" class="hero_btn">Услуги</a>
+        </div>
+        <p class="hero_text">мы создаем<br>правильный дизайн</p>
+        <div class="hero_row">
+            <span class="hero_row1"></span>
+            <div class="hero_row_arrow">
+                <span class="hero_row2"></span>
+                <span class="hero_row3"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about_container container">
+            <div class="about_we">
+                <h2 class="about_we_header">О НАС</h2>
+                <h3 class="about_we_text_header">Мы — команда дизайнеров, монтажников и инженеры</h3>
+                <p class="about_we_text">Студия “Кирпич”: Типография, наружная реклама, срочная печать и другие
+                    рекламно-полиграфические услуги в Петропавловске-Камчатском. Проектируем, изготавливаем и монтируем
+                    наружную рекламу на объекты, от буклетов до световых коробов!</p>
+            </div>
+            <div class="about_rows">
+                <div class="about_row">
+                    <p class="about_row_text"><span class="about_row_text_header">10+</span>Лет на рынке</p>
+                </div>
+                <div class="about_row">
+                    <p class="about_row_text"><span class="about_row_text_header">140+</span>Предприятий обслужено</p>
+                </div>
+            </div>
+            <div class="about_kirpich">
+                <h2 class="about_kirpich_header">КИРПИЧ</h2>
+                <p class="about_kirpich_text">Студия наружной рекламы в Петропавловске-Камчатском, предлагающая широкий
+                    спектр услуг в сфере разработке и изготовлении наружной рекламы для предприятий, что поможет
+                    рекламировать продукцию компании.</p>
+            </div>
+            <button class="about_btn">Команда</button>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio_container container">
+            <h2 class="portfolio_header">ПОРТФОЛИО</h2>
+            <div class="portfolio_block">
+                <img src="./img/JPG/scroll1.jpg" alt="" class="portfolio_img">
+                <img src="./img/JPG/scroll2.jpg" alt="" class="portfolio_img">
+                <img src="./img/JPG/scroll3.jpg" alt="" class="portfolio_img">
+                <img src="./img/JPG/scroll4.jpg" alt="" class="portfolio_img">
+            </div>
+            <button class="portfolio_btn">Узнать подробней</button>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="services_head">
+            <div class="container services_head_container">
+                <h2 class="services_header">НАПРАВЛЕНИЕ УСЛУГ</h2>
+            </div>
+            <span class="services_row"></span>
+        </div>
+        <div class="container services_container">
+            <h3 class="services_question">Что отличает нас от других студий?</h3>
+            <div class="services_main">
+                <div class="services_blocks">
+                    <div class="services_blocks_main">
+                        <div class="services_block">
+                            <p class="services_block_text">Создадим ваш уникальный дизайн</p>
+                        </div>
+                        <div class="services_block">
+                            <p class="services_block_text">Только качественные материалы</p>
+                        </div>
+                        <div class="services_block">
+                            <p class="services_block_text_gray">Более 10 лет опыта работы</p>
+                        </div>
+                        <div class="services_block">
+                            <p class="services_block_text_gray">Выполнение самых объемных и сложных работы</p>
+                        </div>
+                    </div>
+                    <div class="services_block services_block_big">
+                        <p class="services_block_text">Современные технологии печати</p>
+                    </div>
+                </div>
+                <div class="services_mass">
+                    <h3 class="services_mass_header">Изготовление и монтаж<br> рекламы</h3>
+                    <p class="services_mass_discount"><span class="services_mass_discount_header">Скидка 25 %<br>
+                        </span>при первом заказе</p>
+                    <p class="services_mass_code">Кодовое слово<br><span class="services_mass_code_word">"Кирпич"</span>
+                    </p>
+                </div>
+            </div>
+            <button class="services_btn">Узнать подробней</button>
+        </div>
+    </section>
+
+    <section id="benefits" class="benefits">
+        <div class="benefits_container container">
+            <div class="benefits_benefits">
+                <h2 class="benefits_benefits_header">ПРИЕМУЩЕСТВА</h2>
+            </div>
+            <div class="benefits_rows">
+                <div class="benefits_row">
+                    <p class="benefits_row_text">Большой опыт работы</p>
+                </div>
+                <div class="benefits_row">
+                    <p class="benefits_row_text">Точная реализация проекта</p>
+                </div>
+                <div class="benefits_row">
+                    <p class="benefits_row_text">Индивидуальный подход</p>
+                </div>
+                <div class="benefits_row">
+                    <p class="benefits_row_text">Доступные цены</p>
+                </div>
+            </div>
+            <div class="benefits_features">
+                <h2 class="benefits_features_header">ВОЗМОЖНОСТИ</h2>
+                <p class="benefits_features_text">Типография: книги, папки, упаковки для продукции, печати, штампы,
+                    блокноты, календари, дипломы.</p>
+                <p class="benefits_features_text">Изготовление рекламы: вывески неонового типа, крышные установки,
+                    объемные буквы, светодиодные вывески, световые короба, лайтбоксы, штендеры, растяжки, баннеры.</p>
+                <p class="benefits_features_text">Возможность разработать с наши дизайнерами индивидуальный дизайн</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container partners_container">
+            <h2 class="partners_header">НАШИ ПАРТНЕРЫ И ЗАКАЗЧИКИ</h2>
+            <div class="partners_customers">
+                <img src="./img/PNG/partners/partner1.png" alt="" class="partners_customers_img">
+                <img src="./img/PNG/partners/partner2.png" alt="" class="partners_customers_img">
+                <img src="./img/PNG/partners/partner3.png" alt="" class="partners_customers_img">
+                <img src="./img/PNG/partners/partner4.png" alt="" class="partners_customers_img">
+                <img src="./img/PNG/partners/partner5.png" alt="" class="partners_customers_img">
+                <img src="./img/PNG/partners/partner6.png" alt="" class="partners_customers_img">
+                <img src="./img/PNG/partners/partner7.png" alt="" class="partners_customers_img">
+            </div>
+        </div>
+    </section>
+
+    <section class="scheme">
+        <div class="scheme_container container">
+            <div class="scheme_block">ПРИЕМУЩЕСТВА</div>
+            <div class="scheme_points">
+                <p class="scheme_point"><span class="scheme_number">1.</span>Позвони нам прямо сейчас!</p>
+                <p class="scheme_point"><span class="scheme_number">2.</span>Выезжаем на замеры и консультацию</p>
+                <p class="scheme_point"><span class="scheme_number">3.</span>Заключаем договор</p>
+                <p class="scheme_point"><span class="scheme_number">4.</span>Выполняем заказ</p>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./script.js"></script>
+
+</html>
